@@ -1,0 +1,384 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* tablet phon colse nav in */
+nav .btn-bars {
+  display: none;
+}
+nav .table-phone {
+  display: none;
+}
+/*  nav compyuter */
+
+.container {
+  max-width: 1104px;
+}
+nav {
+  margin: 48px auto 110.5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* comyuter start */
+nav .computer {
+  align-items: center;
+  display: flex;
+  gap: 48px;
+}
+nav .computer li a {
+  color: #242a45;
+  font-family: Rubik;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 1.5px;
+}
+.computer li a:hover {
+  color: #ff5939;
+}
+nav .computer li button {
+  width: 111px;
+  height: 40px;
+  background-color: #ff5939;
+  color: white;
+  box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.2);
+  border: none;
+  border-radius: 5px;
+  font-size: 13px;
+}
+.computer li button:hover {
+  background-color: white;
+  border: 2px solid #ff5918;
+  color: #ff5918;
+}
+
+/*  header */
+header {
+  max-width: 1247.46px;
+  margin: 0 auto 195.44px;
+  display: flex;
+  gap: 67.5px;
+}
+header .header-left {
+  margin-left: 71.73px;
+}
+header .header-left h1 {
+  margin: 68.5px auto 0 0px;
+  font-family: "Rubik";
+  width: 540px;
+  color: #242a45;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 52px; /* 108.333% */
+  letter-spacing: -0.15px;
+}
+header .header-left p {
+  margin: 24px auto 32px 0;
+  width: 540px;
+  color: #242a45;
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  opacity: 0.5;
+}
+header .divbtn {
+  display: flex;
+  gap: 16px;
+}
+header .divbtn .btn {
+  width: 166px;
+  padding: 10px 24px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: none;
+  box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.2);
+  font-weight: 500;
+  line-height: 28px; /* 200% */
+  letter-spacing: 0.25px;
+}
+header .divbtn .btn:first-child {
+  background-color: #6067e2;
+  color: #fff;
+}
+header .divbtn .btn:last-child {
+  color: #242a45;
+  opacity: 0.75;
+}
+header img[alt="compyuter"] {
+  max-width: 200%;
+}
+
+/*   Features  */
+#FEATURES .Features-text-top {
+  max-width: 540px;
+  margin: 0 auto;
+}
+.Features-text-top h3 {
+  color: #242a45;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: -0.1px;
+}
+.Features-text-top p {
+  margin-top: 16px;
+  max-width: 540px;
+  color: #242a45;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  opacity: 0.5;
+}
+#FEATURES .sliderMenu .sliderMenu-location {
+  max-width: 540px;
+  margin: 72px auto 72.2px;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 32px;
+  border-bottom: 1px solid #dedff3;
+}
+
+.sliderMenu .sliderMenu-location p {
+  color: #242a45;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17px; /* 106.25% */
+  letter-spacing: 0.533px;
+  opacity: 0.75;
+}
+
+/*  slider   */
+
+/*  slider */
+
+/*  slider */
+
+#PRICING .prices-topText h2 {
+  max-width: 540px;
+  margin: 149px auto 16px;
+  color: #242a45;
+
+  text-align: center;
+  font-family: Rubik;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 52px; /* 162.5% */
+  letter-spacing: -0.1px;
+}
+.prices-topText p {
+  max-width: 540px;
+  margin: 0 auto;
+  color: #242a45;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  opacity: 0.5;
+}
+#PRICING .browserThree {
+  max-width: 908px;
+  height: 351px;
+  margin: 48px auto 149px;
+  display: flex;
+  justify-content: space-between;
+}
+.browserThree .Thri {
+  width: 280px;
+  /* padding: 49px 24px 24px 24px; */
+  box-shadow: 0px 10px 20px -5px rgba(73, 93, 207, 0.2);
+  border-radius: 15px;
+}
+.browserThree .Thri img {
+  margin: 49px 89px 32px;
+}
+.browserThree .Thri h3 {
+  margin-bottom: 6px;
+  color: #242a45;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.25px;
+}
+.browserThree .Thri p {
+  padding-bottom: 24px;
+  text-align: center;
+  border-bottom: 4px dotted rgba(73, 93, 207, 0.2);
+  color: #242a45;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.5;
+}
+.browserThree .Thri button {
+  margin: 24px;
+  width: 232px;
+  padding: 10px 34.5px;
+  background: #5267df;
+  border-radius: 5px;
+  box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.2);
+  border: none;
+}
+.browserThree .Thri button a {
+  color: #fff;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 200% */
+  letter-spacing: 0.25px;
+}
+.browserThree .two {
+  transform: translateY(40px);
+}
+.browserThree .three {
+  transform: translateY(80px);
+}
+#PRICING .questions {
+  max-width: 540px;
+  margin: 229px auto 0;
+  text-align: center;
+  font-family: Rubik;
+}
+.questions h2 {
+  color: #242a45;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 52px; /* 162.5% */
+  letter-spacing: -0.1px;
+}
+.questions p {
+  margin: 16px auto 56px;
+  color: #242a45;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  opacity: 0.5;
+}
+
+.contentbox {
+  max-width: 540px;
+  margin: 0 auto;
+  border-bottom: 1px solid #dfe0e2;
+}
+.contentbox:first-child {
+  border-top: 1px solid #dfe0e2;
+}
+/* display none */
+.contentbox .hiddn {
+  display: none;
+}
+.contentbox .label {
+  display: flex;
+  padding: 19px 2px 13px;
+  justify-content: space-between;
+  align-items: center;
+  color: #242a45;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.contentbox .label p {
+  color: #5267df;
+}
+.contentbox:hover .label {
+  color: #fa5959;
+}
+.contentbox:hover .label p {
+  color: #5267df;
+}
+.contentbox div:nth-child(2) p {
+  opacity: 0.75;
+  color: #242a45;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 225% */
+  letter-spacing: 0.15px;
+}
+/* .animat {
+ animation: anmat 0.6s 1;
+ transform: rotate(90deg);
+ color: #fa5959;
+} */
+/* 
+@keyframes anmat {
+  0% {
+    transform: rotate(0deg);
+    color:#6067E2;
+  }
+  100%{
+    transform: rotate(90deg);
+    color: #FF5939;
+  }
+} */
+
+p[more] {
+  width: 114px;
+  margin: 54px auto 150px;
+  padding: 10px 24px;
+  border-radius: 5px;
+  background: #5267df;
+  box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.2);
+}
+p[more] a {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 200% */
+  letter-spacing: 0.25px;
+}
+footer {
+  background-color: #5267df;
+}
+.fotertop {
+  padding-top: 58px;
+  max-width: 540px;
+  margin: 0 auto;
+}
+.fotertop p {
+  margin: 58px;
+}
