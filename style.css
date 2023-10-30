@@ -406,6 +406,7 @@ footer {
 form {
   display: flex;
   gap: 16px;
+  margin-bottom: 52px;
 }
 form input {
   width: 300px;
@@ -430,5 +431,22 @@ form button {
   letter-spacing: 0.25px;
 }
 .foterbottom {
+  height: 88px;
   background-color: #272a46;
+}
+.foterbottom .box {
+  max-width: 1104px;
+  display: flex;
+  margin: 0px auto;
+  padding: 35px;
+  align-items: center;
+  justify-content: space-between;
+}
+.foterbottom .box .mini-box {
+  display: flex;
+  gap: 65px;
+}
+.box .mini-box ul {
+  display: flex;
+  gap: 44px;
 }
